@@ -1,0 +1,132 @@
+{
+  "logo": {
+    "type": "none"
+  },
+  "modules": [
+    "break",
+    {
+      "format": "┌────────────────────── Hardware ───────────────────────┐",
+      "type": "custom"
+    },
+    {
+      "key": "PC",
+      "keyColor": "green",
+      "type": "host"
+    },
+    {
+      "key": "│ ",
+      "keyColor": "green",
+      "type": "cpu"
+    },
+    {
+      "key": "│ 󰍛",
+      "keyColor": "green",
+      "type": "gpu"
+    },
+    {
+      "key": "│ 󰍹",
+      "keyColor": "green",
+      "type": "display"
+    },
+    {
+      "key": "│ ",
+      "keyColor": "green",
+      "type": "memory"
+    },
+    {
+      "key": "│ ",
+      "keyColor": "green",
+      "type": "swap"
+    },
+    {
+      "key": "└ 󰋊",
+      "keyColor": "green",
+      "type": "disk"
+    },
+    {
+      "format": "└───────────────────────────────────────────────────────┘",
+      "type": "custom"
+    },
+    "break",
+    {
+      "format": "┌────────────────────── Software ───────────────────────┐",
+      "type": "custom"
+    },
+    {
+      "key": "OS",
+      "keyColor": "yellow",
+      "type": "os"
+    },
+    {
+      "format": "{user-name}@{host-name}",
+      "key": "│ 󰀄",
+      "keyColor": "yellow",
+      "type": "title"
+    },
+    {
+      "key": "│ ",
+      "keyColor": "yellow",
+      "type": "kernel"
+    },
+    {
+      "key": "│ 󰏖",
+      "keyColor": "yellow",
+      "type": "packages"
+    },
+    {
+      "key": "└ ",
+      "keyColor": "yellow",
+      "type": "shell"
+    },
+    "break",
+    {
+      "key": "DE",
+      "keyColor": "blue",
+      "type": "de"
+    },
+    {
+      "key": "│ ",
+      "keyColor": "blue",
+      "type": "wm"
+    },
+    {
+      "key": "│ 󰉼",
+      "keyColor": "blue",
+      "type": "wmtheme"
+    },
+    {
+      "key": "│ ",
+      "keyColor": "blue",
+      "type": "terminalfont"
+    },
+    {
+      "key": "└ ",
+      "keyColor": "blue",
+      "type": "terminal"
+    },
+    {
+      "format": "└───────────────────────────────────────────────────────┘",
+      "type": "custom"
+    },
+    "break",
+    {
+      "format": "┌─────────────────────── Uptime ────────────────────────┐",
+      "type": "custom"
+    },
+    {
+      "key": "  OS Age ",
+      "keyColor": "magenta",
+      "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days",
+      "type": "command"
+    },
+    {
+      "key": "  Uptime ",
+      "keyColor": "magenta",
+      "type": "uptime"
+    },
+    {
+      "format": "└───────────────────────────────────────────────────────┘",
+      "type": "custom"
+    }
+  ]
+}
