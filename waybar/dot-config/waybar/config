@@ -1,0 +1,81 @@
+[
+  {
+    "battery": {
+      "format": "{icon}  {capacity}%",
+      "format-charging": "󰂄  {time}",
+      "format-icons": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "format-time": "{H} h {m} min",
+      "interval": 10,
+      "states": {
+        "critical": 10,
+        "warning": 20
+      }
+    },
+    "clock": {
+      "format": "{:%a %d %b %H:%M}",
+      "tooltip": false
+    },
+    "cpu": {
+      "format": "  {usage:02}%",
+      "interval": 5,
+      "tooltip": false
+    },
+    "layer": "top",
+    "memory": {
+      "format": "  {used:0.2f}/{total:0.2f} GiB",
+      "interval": 5,
+      "tooltip": false
+    },
+    "modules-center": [
+      "mpris"
+    ],
+    "modules-left": [
+      "hyprland/workspaces"
+    ],
+    "modules-right": [
+      "tray",
+      "cpu",
+      "memory",
+      "pulseaudio",
+      "battery",
+      "clock"
+    ],
+    "mpris": {
+      "format": "󰎇  {artist} - {title}",
+      "tooltip": false
+    },
+    "network": {
+      "format-disconnected": "Disconnected ⚠",
+      "format-ethernet": "{ipaddr}/{cidr} ",
+      "format-linked": "{ifname} (No IP) ",
+      "format-wifi": " ({signalStrength}%) {essid}",
+      "tooltip-format": "{ifname} via {gwaddr} "
+    },
+    "pulseaudio": {
+      "format": "{icon}  {volume}%",
+      "format-bluetooth": "{icon} {volume}%",
+      "format-icons": {
+        "default": [
+          "",
+          "",
+          ""
+        ],
+        "hands-free": "",
+        "headphone": ""
+      },
+      "format-muted": "  {format_source}",
+      "format-source": "  {volume}%",
+      "format-source-muted": "",
+      "on-click": "pavucontrol"
+    },
+    "tray": {
+      "spacing": 10
+    }
+  }
+]
