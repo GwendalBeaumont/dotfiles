@@ -1,0 +1,22 @@
+set icons
+set ifs "\n"
+set mouse
+set scrolloff 10
+set shell "sh"
+set shellopts "-eu"
+
+cmd rename %[ -e $1 ] && printf 'file exists' || mv $f $1
+cmd trash %trash-put -- $fx
+cmd zip ${{
+	set -f
+	mkdir $1
+	cp -r $fx $1
+	zip -r $1.zip $1
+	rm -rf $1
+}}
+
+map . set hidden!
+map ` !true
+map d trash
+map n push %mkdir<space>
+map r push :rename<space>
