@@ -19,7 +19,7 @@ As of the time of writing this README file, Firefox only looks for a `policies.j
 It possible to create a symlink like this (supposing you are `cd`-ed into the folder containing this `README`):
 
 ```sh
-ln -s policies.json /etc/firefox/policies/policies.json
+ln -s $(pwd)/policies.json /etc/firefox/policies/policies.json
 ```
 
 ## Policies description
