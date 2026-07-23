@@ -1,0 +1,67 @@
+{
+  "policies": {
+    "AppAutoUpdate": false,
+    "AutofillAddressEnabled": false,
+    "AutofillCreditCardEnabled": false,
+    "DisableAppUpdate": true,
+    "DisableFormHistory": true,
+    "DisableProfileImport": true,
+    "DNSOverHTTPS": {
+      "Enabled": true,
+      "ProviderURL": "https://adblock.dns.mullvad.net/dns-query",
+      "Locked": true,
+      "Fallback": true
+    },
+    "DontCheckDefaultBrowser": true,
+    "GenerativeAI": {
+      "Enabled": false,
+      "Locked": true
+    },
+    "Homepage": {
+      "StartPage": "previous-session"
+    },
+    "HttpsOnlyMode": "force_enabled",
+    "OfferToSaveLoginsDefault": false,
+    "PasswordManagerEnabled": false,
+    "SanitizeOnShutdown": {
+      "Cache": true,
+      "Cookies": false,
+      "FormData": true,
+      "History": false,
+      "Sessions": false,
+      "SiteSettings": false,
+      "Locked": false
+    },
+    "SearchEngines": {
+      "Add": [
+        {
+          "Name": "Qwant",
+          "URLTemplate": "https://www.qwant.com/?q={searchTerms}&t=web&l=en&s=0&theme=-1&hc=0&hti=0&b=0",
+          "Method": "GET",
+          "IconURL": "https://www.qwant.com/public/favicon.066f5ee2ab77b590bb5846c32c57cb84.ico",
+          "Alias": "@qwant",
+          "Description": "Search with Qwant"
+        },
+        {
+          "Name": "Google Scholar",
+          "URLTemplate": "https://scholar.google.com/scholar?q={searchTerms}",
+          "Method": "GET",
+          "IconURL": "https://scholar.google.com/favicon.ico",
+          "Alias": "@scholar",
+          "Description": "Search in Google Scholar"
+        }
+      ],
+      "Default": "Qwant",
+      "PreventInstalls": true,
+      "Remove": [
+        "Bing",
+        "DuckDuckGo",
+        "eBay",
+        "Ecosia",
+        "Perplexity",
+        "Wikipedia (en)"
+      ]
+    },
+    "ShowHomeButton": false
+  }
+}
