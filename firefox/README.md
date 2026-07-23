@@ -10,7 +10,7 @@ Stowing this package does not have any effect. To setup Firefox policies, refer 
 >
 > Source: [_Firefox administrator reference_](https://firefox-admin-docs.mozilla.org/reference/)
 
-Normally, Firefox policies are mean't for enterprise use cases. However, as a standard user, it possible to apply them to statically configure parts of Firefox's behaviour.
+Normally, Firefox policies are meant for enterprise use cases. However, as a standard user, it possible to apply them to statically configure parts of Firefox's behaviour.
 
 ## How to install the policies
 
