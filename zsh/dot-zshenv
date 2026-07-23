@@ -1,0 +1,12 @@
+alias o="xdg-open"
+alias open="xdg-open"
+
+alias mk="(){ mkdir -p $1 && cd $1 }"
+alias phd="cd $HOME/Documents/twindevops"
+alias e="nvim"
+alias lg="lazygit"
+
+alias ls="ls --color"
+alias l="ls"
+alias ll="ls -l"
+alias lla="ls -la"
