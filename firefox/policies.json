@@ -36,7 +36,7 @@
       "Add": [
         {
           "Name": "Qwant",
-          "URLTemplate": "https://www.qwant.com/?q={searchTerms}&t=web&l=en&s=0&theme=-1&hc=0&hti=0&b=0",
+          "URLTemplate": "https://www.qwant.com/?q={searchTerms}&t=web&l=en&s=0&theme=-1&hc=0&hti=0&b=0&llm=0",
           "Method": "GET",
           "IconURL": "https://www.qwant.com/public/favicon.066f5ee2ab77b590bb5846c32c57cb84.ico",
           "Alias": "@qwant",
