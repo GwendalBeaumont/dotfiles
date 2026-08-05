@@ -1,3 +1,6 @@
+## Brew
+brew "stow"
+
 ## Casks
 
 # Dev
