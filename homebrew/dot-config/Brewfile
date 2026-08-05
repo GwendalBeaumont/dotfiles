@@ -1,0 +1,25 @@
+## Casks
+
+# Dev
+cask "eclipse-ide"
+cask "visual-studio-code"
+
+# Communications
+cask "element"
+cask "signal"
+cask "thunderbird"
+
+# Utils
+cask "drawio"
+cask "firefox"
+cask "kitty"
+cask "logi-options+"
+cask "onlyoffice"
+cask "orbstack"
+cask "qobuz"
+cask "vlc"
+cask "zotero"
+
+## MAS apps
+mas "WhatsApp", id: "310633997"
+mas "Xcode", id: "497799835"
