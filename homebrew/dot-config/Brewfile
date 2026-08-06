@@ -19,8 +19,6 @@ brew "unzip"
 brew "cairo"
 brew "cocoapods"
 brew "pinentry-mac"
-brew "yt-dlp"
-brew "ffmpeg"
 
 # Utils
 brew "coreutils"
