@@ -1,5 +1,31 @@
 ## Brew
+brew "bat"
+brew "btop"
+brew "fastfetch"
+brew "fd"
+brew "fzf"
+brew "lazygit"
+brew "lf"
+brew "neovim"
+brew "ripgrep"
+brew "starship"
 brew "stow"
+
+# Archives
+brew "zip"
+brew "unzip"
+
+# Misc
+brew "cairo"
+brew "cocoapods"
+brew "pinentry_mac"
+
+# Utils
+brew "coreutils"
+brew "curl"
+brew "make"
+brew "trash-cli"
+brew "tree-sitter"
 
 ## Casks
 
