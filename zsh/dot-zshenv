@@ -1,12 +1,17 @@
-alias o="xdg-open"
-alias open="xdg-open"
+alias o='xdg-open'
+alias open='xdg-open'
 
-alias mk="(){ mkdir -p $1 && cd $1 }"
-alias phd="cd $HOME/Documents/twindevops"
-alias e="nvim"
-alias lg="lazygit"
+alias bup='brew upgrade && brew bundle install --file=~/.config/Brewfile --verbose && brew bundle cleanup --file=~/.config/Brewfile'
+alias drs='sudo darwin-rebuild switch'
+alias e='nvim'
+alias enva='echo '\''use flake'\'' > .envrc && direnv allow'
+alias lg='lazygit'
+alias mk='(){ mkdir -p $1 && cd $1 }'
+alias nfu='nix flake update --flake ~/nix-configuration/'
+alias phd='cd $HOME/Documents/twindevops'
 
-alias ls="ls --color"
-alias l="ls"
-alias ll="ls -l"
-alias lla="ls -la"
+alias ls='ls --color'
+alias l='ls'
+alias ll='ls -l'
+alias lla='ls -la'
+
