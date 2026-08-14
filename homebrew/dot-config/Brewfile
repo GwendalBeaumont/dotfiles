@@ -27,6 +27,10 @@ brew "make"
 brew "trash-cli"
 brew "tree-sitter"
 
+# CLI
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+
 ## Casks
 
 # Dev
