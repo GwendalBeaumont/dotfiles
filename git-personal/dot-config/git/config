@@ -1,0 +1,19 @@
+[commit]
+	gpgSign = true
+
+[gpg]
+	format = "openpgp"
+
+[init]
+	defaultBranch = "main"
+
+[tag]
+	gpgSign = true
+
+[user]
+	email = "gwendal.beaumont@gmail.com"
+	name = "Gwendal Beaumont"
+	signingKey = "847D7D2DB3796CB8789644E373692F251579041D"
+
+[includeIf "gitdir:~/Documents/twindevops"]
+	path = "./config-imt"
