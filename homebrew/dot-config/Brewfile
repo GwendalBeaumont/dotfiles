@@ -17,6 +17,9 @@ brew "stow"
 brew "zip"
 brew "unzip"
 
+# Dev
+brew "ruby"
+
 # Misc
 brew "cairo"
 brew "cocoapods"
