@@ -29,6 +29,7 @@ brew "pinentry-mac"
 brew "coreutils"
 brew "curl"
 brew "make"
+brew "pandoc"
 brew "trash-cli"
 brew "tree-sitter"
 
